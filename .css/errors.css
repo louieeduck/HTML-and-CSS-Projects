@@ -1,0 +1,9 @@
+html {
+    background-color: lightblue;
+}
+
+#photo {
+    border-color: red;
+    border-style: dashed;
+    border-width: 2px;
+}
