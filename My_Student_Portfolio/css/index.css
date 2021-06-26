@@ -1,0 +1,237 @@
+.Navbar {
+    background-color: black;
+    font-size: 5ex;
+    top: 1%;
+    width: 5.5%;
+    border: white;
+    border-radius: 2px;
+    position: fixed;
+    left: 1%; 
+    border-radius: 6px; 
+    overflow: hidden;
+    z-index: 9999;
+}
+
+
+.Navbar a {
+    float: left;
+    display: block; 
+    color: lightyellow; 
+    padding: 8%; 
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica; 
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+body {
+    margin: 0%
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: #1a1a1a; 
+}
+
+h1:hover {
+    filter: grayscale(5%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.myport {
+    color: #fff; 
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    letter-spacing: 1px; 
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p:hover {
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+.undertext {
+    text-align: center;
+}
+
+.undertext:hover {
+    transition: transform 2s;
+    transform: scale(1.1);
+}
+
+a {
+    color: blue;
+}
+
+q {
+    font-style: italic;
+}
+
+img {
+    filter: grayscale(55%);
+    border-radius: 10px; 
+    max-width: 100%; 
+    height: 340px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+	filter: grayscale(5%);
+    transition: transform 1s;
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+    img {
+        height: 100px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Navbar a{
+        width: 25%;
+        font-size: 12px;
+    }
+}
+
+.Navbar a:hover {
+    background-color: white; 
+    color: black; 
+    font-style: italic;
+    width: 100%;
+}
+
+.Navbar a.active {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+#BackVideo {
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    min-width: 100%;
+    z-index: -1;
+}
+
+
+
+.VidText {
+    color: white; 
+    width: 100%; 
+    padding: 20px; 
+    position: relative;
+    text-align: center;
+}
+
+
+
+* { 
+    box-sizing: border-box; 
+} 
+
+.Column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%; 
+    height: 400px; 
+    background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 576px) {
+    .Column_1 {
+        overflow: auto;
+    }
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: grey;
+}
+
+
+.Column_tall {
+    padding-top: 3.5%;
+    height: 450px;
+}
+
+
+.Row:after {
+	content: ""; 
+	display: table; 
+	clear: both; 
+}
+
+input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px #00004d inset; 
+}
+
+input[type=submit] {
+    background-color: black; 
+    color: white; 
+    font-weight: bold; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+
+input[type=submit]:hover {
+    background-color: white; 
+    color: black; 
+    transform: scale(1.5); 
+    transition: transform 1.5s; 
+}
+
+
+form {
+    border-radius: 10px; 
+    background-color: #f2f2f2; 
+    padding: 10px;
+    font-family: "Trebuchet MS", Optima;
+}
+
+p {
+    text-align: center;
+}
+

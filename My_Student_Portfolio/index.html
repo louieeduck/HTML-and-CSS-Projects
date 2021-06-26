@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+		<title>Evan Fretheim</title>
+        <link rel="stylesheet" href="./css/index.css">
+
+	</head>
+	<body class="Background">
+
+        <!-- NAV -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <br>
+        <br>
+
+        <!-- Background Vid -->
+        <div id="Home">
+            <video autoplay muted loop id="BackVideo">
+                <source src="./css/images/videos/coding.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Video Text -->
+        <div class="VidText">
+            <h1 class="myport">Evan Fretheim's Portfolio</h1>
+                <p class="undertext">My name is Evan Fretheim. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    Thank you for stopping by and enjoy!
+                </p>
+        </div>
+
+        <!-- About -->
+        <div class="Row" id="About">
+            <!-- Left Column -->
+            <div CLASS="Column_2">
+                <img src="./css/images/gaming.jpg" alt="Keyboard headset mouse and controller">
+                </div>
+            <!-- Right Column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am student at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> who enjoys learning how to code! When im not working on the bootcamp, I am playing games with my friends.
+                    <br>
+                    <br> I will hopefully graduate from The Tech Academy in early September and be on the search for the job of my dreams!
+                    <br> With my passion for games, game devlopment looked like the obvious career choice for me.
+                    <br> You can <a href="#Contact">contact</a> me below to ask anymore questions!
+                </p>
+            </div>
+        </div>
+
+        <!-- Github -->
+        <div class="Row" id="GitHub">
+            <!-- Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    View my coding projects on my Github profile
+                    <br>
+                    <p class="center"><a href="https://github.com/louieeduck" target="_blank">Evan Fretheim's GitHub</a></p>
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div class="Column_2">
+                <a href="https://github.com/louieeduck" target="_blank"><img src="./css/images/github.png"></a>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="Row" id="Contact">
+            <!-- Contact image, left col -->
+            <div class="Column_2 Column_tall">
+                <img src="./css/images/gamedev.jpg" alt="Contact_Image">
+            </div>
+            <!-- Contact form right col -->
+            <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <form action="" method="POST"> 
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+            </form>
+            </div>
+        </div>
+	</body>
+</html>
