@@ -3,10 +3,10 @@
 	<head>
 		<title>NASA Rockets</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="./css/one_page_website.css"
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="/js/one_page_website.js"></script>
 	</head>
 	<body>
-	
 	
 		<!-- NAV -->
 		<div>
@@ -42,7 +42,7 @@
 					<!-- PHOTO-CONTAINER 1 -->
 					<div>
 						<div>
-							<img src="./images/thumb/atlasV.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/atlasV.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -55,7 +55,7 @@
 					<!-- PHOTO-CONTAINER 2 -->
 					<div>
 						<div>
-							<img src="./images/thumb/delta2.jpg" width="500" height="400" alt="">
+							<img src="./images/thumb/delta2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -67,7 +67,7 @@
 					<!-- PHOTO-CONTAINER 3 -->
 					<div>
 						<div>
-							<img src="./images/thumb/delta4.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/delta4.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -79,7 +79,7 @@
 					<!-- PHOTO-CONTAINER 4 -->
 					<div>
 						<div>
-							<img src="./images/thumb/falcon9.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/falcon9.jpg"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -91,7 +91,7 @@
 					<!-- PHOTO-CONTAINER 5 -->
 					<div>
 						<div>
-							<img src="./images/thumb/juno.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/juno.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -103,7 +103,7 @@
 					<!-- PHOTO-CONTAINER 6 -->
 					<div>
 						<div>
-							<img src="./images/thumb/saturn1.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/saturn1.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -115,7 +115,7 @@
 					<!-- PHOTO-CONTAINER 7 -->
 					<div>
 						<div>
-							<img src="./images/thumb/saturnV.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/saturnV.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -127,7 +127,7 @@
 					<!-- PHOTO-CONTAINER 8 -->
 					<div>
 						<div>
-							<img src="./images/thumb/launchpad.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/launchpad.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -139,7 +139,7 @@
 					<!-- PHOTO-CONTAINER 9 -->
 					<div>
 						<div>
-							<img src="./images/thumb/starship.jpg" width="500" height="500" alt="">
+							<img src="./images/thumb/starship.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
 							<div>
 								<h3> Click to Enlarge</h3>
 								<p></p>
@@ -157,8 +157,15 @@
 					<!-- END VIDEO-CONTAINER -->
 				</div>
 			</div>
-		</section>
+		</section> 
+
 		<!-- END GALLERY -->
+
+		  
+
+
+
+
 		
 		<!-- RSVP -->
 		<section>
@@ -190,7 +197,7 @@
 			<!-- END RSVP -->
 			
 			<!-- FOOTER -->
-			<div>
+			<div class="footer">
 				<p>Evan Fretheim evanfretheim@gmail.com 701-490-2322</p>
 			</div>
 			<!-- END FOOTER -->

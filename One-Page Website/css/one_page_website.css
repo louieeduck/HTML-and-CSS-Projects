@@ -25,3 +25,28 @@ html {
     text-align: center;
     font-size: 10px;
 }
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
