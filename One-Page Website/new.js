@@ -19,3 +19,9 @@ lightbox.addEventListener('click', e => {
     if (e.target !== e.currentTarget) return
     lightbox.classList.remove('active')
 })
+
+document.body.classList.add('fade-out');
+
+window.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.remove('fade-out');
+});
